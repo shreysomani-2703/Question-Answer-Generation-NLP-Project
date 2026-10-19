@@ -1,0 +1,36 @@
+# Ignore datasets and outputs
+question_generation/data/
+question_generation/outputs/
+
+# Ignore large files
+*.pkl
+*.arrow
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Deep Learning weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.hdf5
+checkpoint-*/
+runs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.log
